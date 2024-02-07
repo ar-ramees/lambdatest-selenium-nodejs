@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "![LambdaTest Logo](https://www.lambdatest.com/images/logo.svg)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node index.js"
   },
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/4msha/nodejs-selenium-sample#readme",
   "dependencies": {
-    "selenium-webdriver": "^4.9.0"
+    "dotenv": "^16.4.1",
+    "selenium-webdriver": "^4.17.0"
   }
 }
